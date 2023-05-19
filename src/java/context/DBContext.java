@@ -16,7 +16,7 @@ public class DBContext {
     public Connection getConnection()throws Exception {
         try {
             String serverName = "Dell-G3-3590\\HUNGSERVER";
-            String databaseName = "ManagerTicket_2";
+            String databaseName = "ManagerTicket";
             String url = "jdbc:sqlserver://" + serverName + ";databaseName=" + databaseName + ";encrypt=false";
             String username = "sa";
             String password = "sa";

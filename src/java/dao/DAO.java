@@ -12,9 +12,9 @@ public class DAO {
     ResultSet rs = null;
     
     public Account login(String user, String pass) {
-        String query = "select * from Account "
-                + "where Email = ? "
-                + "and PassWord = ?";
+        String query = "select UserID, Email, PassWord , Role\n" 
+                        +"from Users\n" 
+                        +"where Email = ? and PassWord = ?";
         try {
             conn = new DBContext().getConnection();
             ps = conn.prepareStatement(query);
