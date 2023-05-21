@@ -17,16 +17,20 @@
         <div class="cont">
             <form action="login" method="post">
                 <div class="form sign-in">
-                    <h2>Forgot password</h2>
+                    <h2>Quên mật khẩu</h2>
                     <label>
-                        <span>Email</span>
+                        <span>Mail</span>
                         <input type="email" name="email"/>
+                        <label>
+                            <span>Mật khẩu mới</span>
+                            <input type="email" name="email"/>
+                        </label>
+                        <label>
+                            <span>Nhập lại mật khẩu</span>
+                            <input type="email" name="email"/>
+                        </label>
                     </label>
-                    <label>
-                        <span>Password</span>
-                        <input type="password" name="pass"/>
-                    </label>
-                    <button type="submit" class="submit">Sign In</button>
+                    <button type="submit" class="submit">Xác nhận</button>
                 </div>
             </form>   
 

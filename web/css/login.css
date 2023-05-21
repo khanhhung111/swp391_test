@@ -87,8 +87,7 @@ button {
 	top: 0;
 	width: 900px;
 	height: 100%;
-	/*background-image: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/142996/sections-3.jpg');*/
-        background-image: url('https://vnreview.vn/image/15/83/74/1583745.jpg?t=1476946239303');
+        background-image: url('https://vieclamvui.com/upload/img/700/2021/03/22/nghe_tiep_vien_hang_khong_vieclamvui_1616399176050.jpg?fbclid=IwAR3OCPpJHRx0KD-7mTiPo9PN7IOi6oO_05t1o6Tohyh1RTps1SbVX5SKnlo');
 	background-size: cover;
 	transition: transform 1.2s ease-in-out;
 }
@@ -206,7 +205,7 @@ label {
 
 label span {
 	font-size: 12px;
-	color: #cfcfcf;
+	color: #F44D06;
 	text-transform: uppercase;
 }
 
@@ -216,7 +215,7 @@ input {
 	margin-top: 5px;
 	padding-bottom: 5px;
 	font-size: 16px;
-	border-bottom: 1px solid rgba(0, 0, 0, 0.4);
+	border-bottom: 1px solid #F44D06;
 	text-align: center;
 }
 
@@ -224,7 +223,7 @@ input {
 	margin-top: 15px;
 	text-align: center;
 	font-size: 12px;
-	color: #cfcfcf;
+	color: #F44D06;
 	display: inline-block;
 }
 
